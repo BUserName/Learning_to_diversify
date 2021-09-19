@@ -162,7 +162,7 @@ class Trainer:
 
             # Total loss and backward
             self.convertor_opt.zero_grad()
-            (dist - self.args.beta * div).backward()
+            (dist + self.args.beta * div).backward()
             self.convertor_opt.step()
             self.logger.log(it, len(self.source_loader),
                             {"class": class_loss.item(),
