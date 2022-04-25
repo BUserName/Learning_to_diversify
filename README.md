@@ -3,6 +3,9 @@ This is the official code repository for ICCV2021 'Learning to Diversify for Sin
 
 Paper Link: http://arxiv.org/abs/2108.11726
 
+## Update: Single DG with Resnet-18
+Recently, we receive increasing enquiry about single DG on PACS with Resnet-18 Backbone. (In the paper, we reported Alexnet result)
+Please try hyperparameters lr=0.002 and e=50, to start your experiment. 
 
 ## Quick start: (Generalizing from art, cartoon, sketch to photo domain with ResNet-18)
 1. Install the required packages.
