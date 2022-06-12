@@ -7,6 +7,13 @@ Paper Link: http://arxiv.org/abs/2108.11726
 Recently, we receive increasing enquiry about single DG on PACS with Resnet-18 Backbone. (In the paper, we reported Alexnet result)
 Please try hyperparameters lr=0.002 and e=50, to start your experiment. 
 
+We report the following single DG result on PACS, with resnet-18 as the backbone network:
+
+|Src. domain    | P       | A     | C     | S    |avg. |
+|---             | ------- |-------|-------| -----| --- |
+| Avg. Tar. Acc. | 52.29   | 76.91 | 77.88 | 53.66|65.18|
+
+
 ## Quick start: (Generalizing from art, cartoon, sketch to photo domain with ResNet-18)
 1. Install the required packages.
 2. Download PACS dataset.
